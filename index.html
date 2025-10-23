@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rafisahardi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f6f7fb;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 32px auto;
+            background: #fff;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+            border-radius: 16px;
+            padding: 32px;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto 16px;
+            width: 140px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 2px solid #eee;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 12px;
+        }
+        h2 {
+            margin-top: 32px;
+            font-size: 1.3em;
+            color: #5c6bc0;
+        }
+        ul {
+            margin: 0 0 16px 18px;
+        }
+        .contacts {
+            margin-top: 28px;
+            font-size: 1.03em;
+            padding: 12px;
+            background: #f3f4fa;
+            border-radius: 8px;
+        }
+        .contacts a {
+            color: #5c6bc0;
+            text-decoration: none;
+        }
+        .dark-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+            background: #222;
+            color: #fff;
+            border: none;
+            padding: 8px 18px;
+            font-size: 1em;
+            border-radius: 8px;
+        }
+        body.dark {
+            background: #181923;
+            color: #f8f9fa;
+        }
+        body.dark .container {
+            background: #23243a;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.34);
+        }
+        body.dark .contacts {
+            background: #1f2030;
+        }
+        body.dark h2 {
+            color: #9fa8da;
+        }
+    </style>
+</head>
+<body>
+    <button class="dark-toggle" onclick="document.body.classList.toggle('dark')">Dark Mode</button>
+    <div class="container">
+        <img src="profile.jpg" alt="Foto Profil Rafisahardi" class="profile-img">
+        <h1>Rafisahardi</h1>
+        <p style="text-align:center; font-size:1.18em;">Mahasiswa S1 Ekonomi Pembangunan<br>Universitas ABC (2021–2025)</p>
+        <h2>Keahlian</h2>
+        <ul>
+            <li>Microsoft Excel</li>
+            <li>SPSS</li>
+            <li>Power BI</li>
+            <li>Public Speaking</li>
+            <li>Procurement</li>
+            <li>Data Entry</li>
+        </ul>
+        <h2>Pengalaman Kerja/Proyek</h2>
+        <ul>
+            <li>GA Intern di PT XYZ</li>
+            <li>Proyek Analisis UMKM</li>
+            <li>Asisten Penelitian</li>
+        </ul>
+        <h2>Pendidikan</h2>
+        <ul>
+            <li>S1 Ekonomi Pembangunan – Universitas ABC (2021–2025)</li>
+        </ul>
+        <div class="contacts">
+            <strong>Kontak:</strong><br>
+            WhatsApp: <a href="https://wa.me/6281393604064">081393604064</a><br>
+            Instagram: <a href="https://instagram.com/rafisah_">@rafisah_</a>
+        </div>
+    </div>
+</body>
+</html>
